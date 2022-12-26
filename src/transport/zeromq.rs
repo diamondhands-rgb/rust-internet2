@@ -227,11 +227,13 @@ impl Display for Error {
     }
 }
 
+#[derive(Clone)]
 pub struct WrappedSocket {
     api_type: ZmqSocketType,
     socket: zmq::Socket,
 }
 
+#[derive(Clone)]
 pub struct Connection {
     api_type: ZmqSocketType,
     remote_addr: Option<ServiceAddr>,

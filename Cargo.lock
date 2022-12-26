@@ -1691,8 +1691,7 @@ dependencies = [
 [[package]]
 name = "zmq-sys2"
 version = "0.3.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5f7e9037b2c14b678cf4dc508a7d995014e9d6a710427d8745d653df846347d8"
+source = "git+https://github.com/diamondhands-rgb/rust-zmq.git?branch=pr-derive-Clone#9bdf1b1a233039dcbc664f29ba82b5af97995e3d"
 dependencies = [
  "libc",
  "system-deps",
@@ -1702,8 +1701,7 @@ dependencies = [
 [[package]]
 name = "zmq2"
 version = "0.5.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "35add0d42b88581151bd38da853994ae51aa5dc71216fe803fdbcd759b2cf8e3"
+source = "git+https://github.com/diamondhands-rgb/rust-zmq.git?branch=pr-derive-Clone#9bdf1b1a233039dcbc664f29ba82b5af97995e3d"
 dependencies = [
  "bitflags",
  "libc",
