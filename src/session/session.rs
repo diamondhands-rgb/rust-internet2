@@ -84,6 +84,7 @@ pub trait SendMessage {
     }
 }
 
+#[derive(Clone)]
 pub struct Session<T, C>
 where
     T: Transcode,
