@@ -39,6 +39,7 @@ pub trait CreateUnmarshaller: Sized + TypedEnum {
     fn create_unmarshaller() -> Unmarshaller<Self>;
 }
 
+#[derive(Clone)]
 pub struct Unmarshaller<T>
 where
     T: TypedEnum,

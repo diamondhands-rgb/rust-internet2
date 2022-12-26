@@ -13,6 +13,9 @@ edition = "2021"
 rust-version = "1.59.0"
 exclude = [".github", "derive", "contrib", "addr"]
 
+[patch.crates-io]
+zmq = { package = "zmq2", git = "https://github.com/diamondhands-rgb/rust-zmq.git", branch = "wip-rgb-lib" }
+
 [lib]
 name = "internet2"
 path = "src/lib.rs"
